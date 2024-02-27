@@ -19,8 +19,6 @@ function getSID(node) {
   return getNID(node).substring(0, 5);
 }
 
-
-
 module.exports = {
   getNID: getNID,
   getSID: getSID,
